@@ -139,3 +139,5 @@ while True:
 # stuff to implement :: 
 # initialization of database (if open(db.csv)==False)
 # better exception raising.
+
+# we also need to include example input and output csv files.
