@@ -116,8 +116,8 @@ def main():
 			conn = httplib.HTTPSConnection("api.pushover.net:443")
 			conn.request("POST", "/1/messages.json",
 			urllib.urlencode({
-			"token": "aCMQbXzXf6PkLDSc6Mf4iTjmzzDJtj",
-			"user": "u5UqXnuFjTSVRqaWYRjbHTBXXJ3U1Z",
+			"token": "PUSHOVER_APP_TOKEN",,
+			"user": "USER_KEY",
 			"message": key+" patch...",
 			}), { "Content-type": "application/x-www-form-urlencoded" })
 			conn.getresponse()
